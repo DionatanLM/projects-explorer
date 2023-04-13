@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.home {
+  background-image: url('img/bg.png');
+}
+
+.universe {
+  background-image: url('img/bg-universe.png');
+}
+
+.exploration {
+  background-image: url('img/bg-explorer.png');
+}
+
+nav {
+  height: 12rem;
+  width: 100%;
+  padding: 4rem 7rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+nav > a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #8d8d99;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+nav > a:active,
+nav > a:hover,
+nav > a:focus {
+  color: #fff;
+  font-weight: 700;
+}
+
+.app {
+  margin-top: 6rem;
+  padding: 0px 10.2rem;
+}
+
+.app > h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  margin-bottom: 1.6rem;
+}
+
+.app > p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  width: 64rem;
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40rem;
+}
+
+.container-home > h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  margin-bottom: 1.6rem;
+}
+
+.container-home > a {
+  background-color: transparent;
+  padding: 1.2rem 3.2rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #fff;
+
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.container-home > a:hover {
+  background-color: #fff;
+  color: #02799d;
+}
